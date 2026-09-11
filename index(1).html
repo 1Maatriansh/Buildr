@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Buildr — Bored? Build something.</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="noise"></div><div class="cursor" id="cursor"></div>
+<nav><div class="logo">BUILD<span>R</span></div><div class="navright"><button class="navbtn" onclick="scrollToBuilds()">My Build List <span id="count">(0)</span></button><button class="navbtn" onclick="surprise()">Surprise me ↗</button></div></nav>
+
+<header class="hero" id="top">
+<div class="grid"></div><div class="hero-bg" id="heroBg"></div>
+<div class="hero-inner">
+<div class="eyebrow">THE ANTIDOTE TO DOOMSCROLLING</div>
+<h1><span class="glitch" data-text="Bored?">Bored?</span><br><span>Build something.</span></h1>
+<p>Stop consuming. Start making. Pick a rabbit hole, steal an idea, and disappear into a project for a few hours.</p>
+<button class="cta" onclick="document.getElementById('categories').scrollIntoView({behavior:'smooth'})">Show me ideas ↓</button>
+<button class="cta secondary" onclick="surprise()">Surprise me 🎲</button>
+</div>
+<div class="ticker"><span>✦ BUILD SOMETHING &nbsp;&nbsp; ✦ TOUCH GRASS LATER &nbsp;&nbsp; ✦ YOUR NEXT PROJECT IS ONE CLICK AWAY &nbsp;&nbsp; ✦ BUILD SOMETHING &nbsp;&nbsp; ✦ TOUCH GRASS LATER &nbsp;&nbsp; ✦ YOUR NEXT PROJECT IS ONE CLICK AWAY &nbsp;&nbsp;</span></div>
+</header>
+
+<section id="categories">
+<div class="section-head"><div><div class="kicker">01 / Pick your poison</div><h2>What are we<br>building?</h2></div><p>Don't overthink it. Choose a vibe and we'll throw the coolest builds at you first.</p></div>
+<div class="categories" id="catGrid"></div>
+</section>
+
+<section class="ideas-wrap" id="ideasSection">
+<div class="section-head"><div><div class="kicker">02 / Infinite builds</div><h2 id="feedTitle">Fresh ideas.</h2></div><p id="feedSub">Ranked by cool factor. The good stuff is intentionally up front.</p></div>
+<div class="toolbar" id="filters"></div>
+<div class="ideas" id="ideas"></div><div class="empty" id="empty">Nothing saved here yet. Go make something. 👀</div>
+</section>
+
+<section id="builds">
+<div class="buildlist"><div><div class="kicker">03 / Your unfinished business</div><h2>My Build List <span id="buildCount">(0)</span></h2></div><p>Ideas you save live right here in your browser. No account. No friction. Just things you're supposed to build.</p></div>
+</section>
+
+<footer><span>BUILD/R © 2026</span><span>MAKE MORE. SCROLL LESS.</span></footer>
+<div class="toast" id="toast"></div>
+<script src="js/ideas.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

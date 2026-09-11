@@ -1,0 +1,38 @@
+const categories=[
+["all","✦","Everything","The whole rabbit hole","--glow:#c8ff35"],
+["fun","🎨","For Fun","Weekend nonsense","--glow:#ff5d73"],
+["ai","🤖","Build With AI","Make machines do weird things","--glow:#8f7cff"],
+["hack","🏆","Hackathons","48 hours. Go.","--glow:#c8ff35"],
+["college","🎓","College / School","Actually worth submitting","--glow:#63d9ff"],
+["office","💼","Office","Make the presentation hit","--glow:#ffb84d"],
+["money","💸","Make Money","Tiny products. Real potential.","--glow:#69e58c"],
+["weird","🧠","Mind-Bending","Why does this exist?","--glow:#d36bff"],
+["game","🎮","Game Jam","Small. Playable. Addictive.","--glow:#ff6b9a"],
+["learn","🛠","Learn a Skill","Learn by shipping","--glow:#5ed5ff"],
+["good","🌍","For Good","Build something useful","--glow:#65e48a"],
+["trend","🔥","Trending Right Now","What's hot","--glow:#ff8c4d"]
+];
+const ideas=[
+["ai","AI That Roasts Your Spotify Taste","Upload a playlist. Let a model judge your personality.","AI","Easy","3–5 hrs"],
+["fun","The Website That Judges Your Outfit","Take a photo. Get an unnecessarily confident verdict.","Computer Vision","Easy","2–4 hrs"],
+["hack","Emergency Room Simulator","Turn public data into a live crisis-management dashboard.","Data","Hard","24–48 hrs"],
+["college","Study Notes → Interactive Quiz","Drop notes in. Get a playable quiz with streaks.","AI","Medium","4–8 hrs"],
+["office","The Presentation That Argues Back","Your slides challenge the audience with live polls.","Web","Medium","6–10 hrs"],
+["money","One-Click Invoice Maker","A beautiful invoice generator for people allergic to spreadsheets.","SaaS","Easy","3–6 hrs"],
+["weird","A Website That Slowly Forgets You","Every visit, it remembers less. See what survives.","Experimental","Medium","5–8 hrs"],
+["game","One Button Dungeon","A complete roguelike controlled by exactly one button.","Game","Medium","8–12 hrs"],
+["learn","Build Your Own Search Engine","Index a tiny dataset and make your own ranking algorithm.","Algorithms","Hard","1–2 days"],
+["good","Local Help Exchange","Match people who need tiny favors with people nearby who can help.","Social","Medium","1–2 days"],
+["trend","Your Personal AI Time Capsule","Leave messages for your future self and let AI remix them later.","AI","Medium","6–10 hrs"],
+["fun","Internet Museum of Your Life","Automatically turn your screenshots into a weird visual archive.","Creative","Easy","3–5 hrs"],
+["ai","Talk to Your Old Notes","Search your own notes conversationally with citations.","RAG","Medium","6–12 hrs"],
+["hack","Live Crowd Mood Map","Visitors tap a mood and watch a room become a living data visualization.","Realtime","Medium","8–16 hrs"],
+["college","Campus Survival Dashboard","Cafeteria menus, deadlines, rooms and events in one beautiful view.","Web","Medium","1–2 days"],
+["office","Meeting Bingo Generator","Paste the agenda. Receive a dangerously accurate bingo card.","Fun","Easy","1–2 hrs"],
+["money","Tiny Link-in-Bio Store","Sell one digital product with a page that takes five minutes to launch.","Commerce","Medium","1 day"],
+["weird","The Button That Does Nothing","Except it gets more complicated every time you press it.","Experimental","Easy","1–3 hrs"],
+["game","NPC With a Memory","An NPC remembers what you did yesterday and holds grudges.","Game AI","Medium","1–2 days"],
+["learn","Visualize Any API","Paste an endpoint and turn its JSON into an interactive explorer.","APIs","Medium","4–8 hrs"],
+["good","Accessibility Checker for Humans","A friendly tool that explains inaccessible UI like a real person would.","Accessibility","Medium","6–10 hrs"],
+["trend","Build an AI Agent Playground","Let tiny agents compete to complete the same ridiculous task.","Agents","Hard","1–2 days"]
+];
